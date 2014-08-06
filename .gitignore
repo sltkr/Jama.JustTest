@@ -1,0 +1,5 @@
+Nugets/
+[Bb]in/
+[Oo]bj/
+/*.suo
+packages/
