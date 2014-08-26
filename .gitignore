@@ -3,3 +3,4 @@ Nugets/
 [Oo]bj/
 /*.suo
 packages/
+*.user
