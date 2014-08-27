@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncBaseTestFixture.cs" />
+    <Compile Include="SimpleTestFixture.cs" />
     <Compile Include="BaseTestFixture.cs" />
     <Compile Include="BaseTestClasses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
