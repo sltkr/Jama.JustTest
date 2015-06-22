@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncBaseTestFixture.cs" />
+    <Compile Include="BaseTestFixtureAsync.cs" />
     <Compile Include="SimpleTestFixture.cs" />
     <Compile Include="BaseTestFixture.cs" />
     <Compile Include="BaseTestClasses.cs" />
