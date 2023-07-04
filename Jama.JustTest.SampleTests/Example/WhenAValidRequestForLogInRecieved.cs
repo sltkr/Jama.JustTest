@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Jama.JustTest.SampleTests.Example
 {
-    public class WhenAValidRequestForLogInRecieved : BaseTestFixture<LoginService>
+    public class WhenAValidRequestForLogInReceived : BaseTestFixture<LoginService>
     {
         private LoginRequest _lr;
         private bool _result;
