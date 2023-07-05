@@ -5,7 +5,7 @@ using StructureMap.AutoMocking.Moq;
 namespace Jama.JustTest
 {
     /// <summary>
-    /// An async runner - normally you shouldnt need this but if you see a bunch of
+    /// An async runner - normally you shouldn't need this but if you see a bunch of
     /// unable-to-evaluate-expression-because-the-code-is-optimized-or-a-native-frame-is errors try this.
     /// 
     /// Please note this test fixture runs your async code synchronously.
@@ -19,8 +19,11 @@ namespace Jama.JustTest
         protected Exception CaughtException;
 
         protected virtual void SetupDependencies() { }
+#pragma warning disable CS1998 // disabled build warning for placeholder methods Given and When
         protected virtual async Task Given() { }
+
         protected virtual async Task When() { }
+#pragma warning restore CS1998
         protected virtual void Finally() { }
 
         [Given]

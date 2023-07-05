@@ -3,9 +3,9 @@ using NUnit.Framework;
 
 namespace Jama.JustTest
 {
-    public class GivenAttribute : TestFixtureSetUpAttribute { }
+    public class GivenAttribute : OneTimeSetUpAttribute { }
 
     public class ThenAttribute : TestAttribute { }
 
-    public class ThereWasNoExceptonButOneWasExpectedException : Exception { }
+    public class ThereWasNoExceptionButOneWasExpectedException : Exception { }
 }

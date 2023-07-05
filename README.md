@@ -5,10 +5,14 @@ JustTest
 
 A simple test fixture set up which provides convenient auto-mocking capabilities that allow you to write BDD style unit tests.
 
+Supports
+--------
+- netstandard2.0
+
 Dependencies
 ------------
 - nUnit
-- StructureMap.Automocker.Moq
+- StructureMap.Automocking.Moq.Updated
 
 Example Usage
 -------------
